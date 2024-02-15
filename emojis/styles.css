@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Sixtyfour";
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10px;
+	background-image: url("https://as2.ftcdn.net/v2/jpg/03/61/93/45/1000_F_361934573_ftbloadKJ4ydVMMjY9jBX6SMmtRbU3yz.jpg");
+}
+
+.header {
+	background: #12f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 60%;
+	min-height: 60%;
+}
+
+.header h1 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.main {
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(14,101,205,1) 100%);
+	width: 60%;
+	min-height: 60%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.input-container {
+	width: 40%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.emoji-ejemplo {
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: 700;
+	background: #fff4;
+	padding: 2px;
+}
+
+.input-texto {
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 10px;
+}
+
+.emojis-container {
+	background: #fff;
+	border-radius: 5px;
+	width: 40%;
+	height: 30%;
+}
